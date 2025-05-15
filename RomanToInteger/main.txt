@@ -1,0 +1,8 @@
+Tạo một hàm nhận vào chuỗi số la mã và trả ra số 
+  - Tạo 1 map gồm các key là ký tự la mã và value là số ứng với nó
+  - Khởi tạo tổng là 0
+  - Dùng vòng lặp duyệt qua index và value của chuỗi
+  - Lấy ra giá trị của các ký tự trong chuỗi dựa vào map.
+  - Xem thử index này đã là cuối vòng lặp chưa, nếu chưa và giá trị số ứng với nó thấp hơn giá trị số ứng với ký tự sau nó thì tổng trừ đi nó
+  - Trường hợp còn lại thì cứ cộng tổng với giá trị vừa lấy được thôi.
+  - Rồi trả ra tổng.

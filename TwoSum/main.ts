@@ -1,7 +1,7 @@
 const twoSum = (nums: number[], target: number): number[] => {
   let m: Map<number, number> = new Map();
 
-  for (let [i, v] of nums.entries()) {
+  for (const [i, v] of nums.entries()) {
     const c = target - v;
     if (m.has(c)) {
       return [m.get(c)!, i];
