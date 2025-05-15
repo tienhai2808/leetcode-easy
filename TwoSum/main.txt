@@ -1,0 +1,7 @@
+Hàm nhận vào 1 slice int và 1 target int, trả ra 1 slice int 
+  - Tạo 1 mảng trống sẽ chứa giá trị key là giá trị của value, value là giá trị của index khi lặp
+  - Lặp qua index và value của slice nhận vào
+  - Tạo 1 biến complement = target - value 
+  - Tìm giá trị của map tại vị trí complement (tức là lấy index của complement trong slice đầu vào)
+    nếu có thì sẽ trả ra vị trí đó đồng thời trả ra luôn cả index của value đang xét
+  
