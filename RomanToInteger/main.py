@@ -12,8 +12,8 @@ class Solution:
     
     total = 0
     n = len(s)
-    for i, v in enumerate(s):
-      val = roman[v]
+    for i in range(n):
+      val = roman[s[i]]
       if i + 1 < n and val < roman[s[i + 1]]:
         total -= val 
       else:

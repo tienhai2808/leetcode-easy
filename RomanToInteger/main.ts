@@ -12,8 +12,8 @@ const romanToInt = (s: string): number => {
   let total: number = 0;
   const n: number = s.length;
 
-  for (const [i, v] of [...s].entries()) {
-    const val: number = roman.get(v)!;
+  for (let i: number = 0; i < n; i++) {
+    const val: number = roman.get(s[i])!;
     if (i + 1 < n && val < roman.get(s[i + 1])!) {
       total -= val;
     } else {
