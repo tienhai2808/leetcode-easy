@@ -1,6 +1,8 @@
+from typing import Dict
+
 class Solution:
   def roman_to_int(self, s: str) -> int:
-    roman: dict = {
+    roman: Dict[str, int] = {
       'I': 1,
       'V': 5,
       'X': 10,
@@ -12,6 +14,7 @@ class Solution:
     
     total = 0
     n = len(s)
+    
     for i in range(n):
       val = roman[s[i]]
       if i + 1 < n and val < roman[s[i + 1]]:
