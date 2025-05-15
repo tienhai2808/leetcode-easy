@@ -10,6 +10,7 @@ func twoSum(nums []int, target int) []int {
 		if j, ok := m[c]; ok {
 			return []int{j, i}
 		}
+		
 		m[v] = i
 	}
 
@@ -35,10 +36,7 @@ func case3() ([]int, int) {
 }
 
 func main() {
-	result1 := twoSum(case1())
-	result2 := twoSum(case2())
-	result3 := twoSum(case3())
-	fmt.Println(result1)
-	fmt.Println(result2)
-	fmt.Println(result3)
+	fmt.Println(twoSum(case1()))
+	fmt.Println(twoSum(case2()))
+	fmt.Println(twoSum(case3()))
 }

@@ -6,6 +6,7 @@ function twoSum(nums: number[], target: number): number[] {
     if (m.has(c)) {
       return [m.get(c)!, i];
     }
+    
     m.set(v, i);
   }
 

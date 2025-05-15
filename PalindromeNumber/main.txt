@@ -1,0 +1,5 @@
+Hàm nhận 1 số và trả ra true hoặc false (xem thử đó có phải là 1 palindrome number không):
+ - Kiểm tra xem thử x có phải số âm hoặc có chữ số cuối cùng là 0 không 
+ - Khởi tạo biến rev với giá trị ban đầu là 0, biến này sẽ chứa giá trị đuôi của x qua mỗi vòng lặp tách 
+ - Xét điều kiện lặp là x > rev, trong vòng lặp sẽ xét rev = rev * 10 + x % 10 để lấy ra phần đuôi đảo ngược của x, x sẽ chia lấy nguyên cho 10
+ - Khi kết thúc vòng lặp, kiểm tra xem thử rev có bằng với x không (với x là số có số chữ số chẵn) hoặc x = rev / 10 với ngược lại
