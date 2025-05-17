@@ -1,0 +1,7 @@
+Hàm nhận vào 1 list gồm nhiều chuỗi và trả ra chuỗi chung dài nhất của các chuỗi, bắt đầu từ vị trí 0:
+  - Kiểm tra độ dài của chuỗi, loại trừ khả năng list có độ dài là 0 hoặc 1
+  - Duyệt qua từng phần tử của list để lấy độ dài nhỏ nhất của 1 chuỗi 
+  - Lấy chuỗi đầu tiên trong list làm chuẩn để so sánh với các chuỗi còn lại 
+  - Lặp theo độ dài nhỏ nhất, và bên trong vòng lặp đó lặp tiếp số lượng chuỗi trong list
+  - So sánh các ký tự của các chuỗi với chuỗi đầu tiên. Nếu khác 1 ký tự nào đó thì trả về chuỗi đầu tiên cắt từ vị trí đó về trước
+  - Kết thúc hàm trả ra chuỗi đầu tiên cắt từ vị trí của độ dài nhỏ nhất.
