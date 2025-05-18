@@ -18,4 +18,7 @@ class Solution:
     return not stack
 
 s = Solution()
-print(s.is_valid("]"))
+print(s.is_valid("()"))
+print(s.is_valid("()[]{}"))
+print(s.is_valid("(]"))
+print(s.is_valid("([])"))
