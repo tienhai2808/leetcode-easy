@@ -1,0 +1,7 @@
+Hàm nhận vào 1 chuỗi và trả ra boolean:
+  - Tạo 1 map dạng rune chứa key là các ngoặc đóng value là các ngoặc mở 
+  - Tạo 1 slice trống cùng dạng với map 
+  - Lặp qua từng phần tử của chuỗi, nếu nó không trùng với key trong map thì push lên slice 
+  - Nếu nó trùng thì kiểm tra, nếu độ dài của slice hiện tại đang là 0 
+    hoặc giá trị cuối cùng của slice khác với value của key đó thì trả về fale. Nếu không thì cắt phần tử cuối của slice
+  - Kết thúc vòng lặp trả ra kết quả len của slice bằng 0 không 
