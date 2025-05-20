@@ -1,0 +1,30 @@
+- Đánh giá website trước của họ 
+- Phân tích khách hàng rõ ràng, đặc điểm của họ ảnh hưởng như thế nào tới việc xây web của mình 
+- Mục tiêu rõ ràng, cụ thể
+- Thiết kế look & feel phân tích rõ ràng (font, màu sắc)
+- feel phân tích các animation, các tiện nghi trong web
+- Thêm giỏ hàng mà không load lại trang ở trang chi tiết sản phẩm 
+- Nút mua ngay 
+- Xem gần đây, sản phẩm liên quan (mình có hơn tụi là mình có xem gần đây)
+
+- Web MyMy đẹp vl 
+
+- Kiểm thử:
+  + Kiểm tra chính tả, hình ảnh, tên, font,..
+
+- Tên miền, hosting: vì sao lại chọn cái đó? tên đó? 
+- CHiến dịch truyền thông 
+  + đối tượng, mục đích 
+  + phân tích từ khóa trọng tâm -> tối ưu hóa nội dung SEO, hình ảnh, từ khóa 
+  + Kế hoạch email mkt, dùng mailchimp, bảng tổng kết vòng tròn sự kiện chiến lược,...
+  + K cần demo chiến dịch, chỉ cần dùng 1 chiến dịch thôi, chú trọng vào đó
+  + Không nên bỏ nhiều từ khóa Venesto quá. Tìm những từ khóa theo insight người dùng
+
+- Trải nghiệm người dùng các bạn mong muốn, khác gì với thị trường hiện tại, đặc thù của sản phẩm, đặc thù doanh nghiệp
+- Tìm hiểu rõ lịch sử thương hiệu, đặc thù thương hiệu, cam kết sản phẩm 
+- Thiết kế các tính năng đó phục vụ mục đích gì, cách bố trí nội dung như nào để phù hợp với endpoint trong junimap j j đó.
+- Tạo ra hệ thống liền mạch để hoàn chỉnh, kể 1 câu chuyện về 1 thương hiệu thay để trải nghiệm khách hàng thuyết phục hơn
+- Kích thích được đam mê mua hàng vest, thời trang của người dùng
+
+- Nhóm MyMy thuyết trình hay vcl 
+

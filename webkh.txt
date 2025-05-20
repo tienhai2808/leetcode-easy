@@ -1,0 +1,5 @@
+- Tính năng thương mại điện tử khi tìm kiếm 
+- Không đem chỉ số bán hàng vào hay số lượng đơn hàng vào mục tiêu 
+- Hệ thống điều hướng gì, và người dùng sẽ sử dụng như nào 
+- Tài liệu tham khảo cx bị đánh giá đấy
+- Thầy ns web nhóm KH tốt nhất trong 3 lớp. KH gánh còng lưng

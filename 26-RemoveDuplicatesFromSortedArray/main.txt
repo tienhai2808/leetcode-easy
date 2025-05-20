@@ -1,0 +1,6 @@
+Hàm nhận vào 1 list và trả ra số lượng phần tử duy nhất của list:
+  - Khởi tạo 1 giá trị con trỏ i = 0 để tính giá trị duy nhất 
+  - Lặp qua các phần tử của list từ vị trí số 1
+  - Nếu phần tử nào khác với phần tử tại vị trí i thì thêm i 1 đơn vị 
+    và gán giá trị tại vị trí i của list bằng giá trị tại vị trí j 
+  - Trả về i + 1
