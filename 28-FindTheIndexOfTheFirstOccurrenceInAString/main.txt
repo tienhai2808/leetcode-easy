@@ -1,0 +1,6 @@
+Hàm nhận vào 2 chuỗi haystack và needle trả ra vị trí đầu tiên của đoạn substring mà haystack chứa needle:
+  - Nếu độ dài needle = 0 thì trả về -1 
+  - Nêú độ độ dài haystack < độ dài needle thì trả về 0
+  - Lặp qua các phần tử của haystack từ vị trí 0 tới vị trí độ dài haystack - needle + 1
+  - Nếu substring haystack ở vị trí i tới i + len(needle) bằng needle thì trả về i
+  - Mặc định trả về -1 
