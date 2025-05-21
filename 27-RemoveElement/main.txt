@@ -1,0 +1,4 @@
+Hàm nhận giá trị đầu vào là 1 list và 1 value và trả ra độ dài của list sau khi đã xóa các phần tử bên trong nó bằng value:
+  - Khởi tạo biến i = 0 để tính độ dài của list sau khi xóa 
+  - Lặp qua từng phần tử của list, nếu nó khác với value thì gán nó cho giá trị tại vị trí i của list và tăng i lên 1 giá trị 
+  - Trả về giá trị của i
