@@ -1,0 +1,22 @@
+Hàm nhận 1 chuỗi số nguyên đã được sắp xếp và 1 biến target, kết quả trả ra là vị trí của target trong list nếu có
+hoặc vị trí mà target sẽ ở nếu nó chưa có theo thứ tự tăng dần:
+  - Sử dụng thuật toán binary search (chia nhỏ từng cặp rồi xét)
+  - Lấy vị trí 0: left và len(list) - 1: right 
+  - Vòng lặp left <= right, khởi tạo mid là trung bình của left và right lấy nguyên
+  - Nếu giá trị tại vị trí mid của list = target thì sẽ trả về mid
+  - Nếu giá trị tại vị trí mid của list < target thì sẽ gán lại left = mid + 1 để cắt bớt bên trái
+  - Nếu giá trị tại vị trí mid của list > target thì sẽ gán lại right = mid - 1 để cắt bớt bên phải
+  - Trả về vị left vì sẽ cắt dần tới left
+
+list = [2: 0, 3: 1, 5: 2, 6: 3, 8: 4, 11: 5], target = 7
+left = 0, right = 5
+Xét lần 1: 0 < 5 => Lặp mid = 2
+  list[2] = 5 < 7 => left = 3
+
+Xét lần 2: 3 < 5 => Lặp mid = 4
+  list[4] = 8 > 7 => right = 3
+
+Xét lần 3: 3 = 3 => Lặp mid = 3
+  list[3] = 6 < 7 => left = 4
+
+Xét lần 4: 4 > 3 => Kết thúc trả về 4
