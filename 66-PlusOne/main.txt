@@ -1,0 +1,6 @@
+Hàm nhận vào 1 list số nguyên và trả ra 1 list số nguyên bằng với việc gộp các số nguyên list ban đầu + 1
+  - Duyệt ngược list ban đầu
+  - Nếu số đó nhỏ hơn 9 thì cộng thêm 1 rồi trả về list luôn
+  - Không thì gán lại số đó là 0 rồi
+  - Kết thúc vòng lặp thì thêm 1 vào đầu list rồi trả về vì trường hợp kết thúc vòng lặp mà chưa return thì chỉ có là dãy full 9 và mình đổi nó thành full 0 rồi thêm số 1
+  
